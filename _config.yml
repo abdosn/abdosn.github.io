@@ -20,7 +20,7 @@ description: A personal portfolio for Abdelrahman Nassar
     I am a senior embedded system engineer with experience in C/C++, Python, and IoT.
 # twitter_username: username
 github_username: abdosn
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -59,10 +59,10 @@ plugins:
 author:
   name   : "Abdelrahman Nassar"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Senior Embedded system Engineer | C/C++ | Python | Iot."
+  bio    : "Senior Embedded system Engineer - C/C++ - Python - Iot."
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fa-brands fa-linkedin-in"
       url: "https://www.linkedin.com/in/abdelrahmansobhynassar/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
