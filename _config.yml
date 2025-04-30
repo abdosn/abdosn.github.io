@@ -61,7 +61,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Senior Embedded system Engineer - C/C++ - Python - Iot."
   links:
-    - label: "LinkedIn"
+    - label: " LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/abdelrahmansobhynassar/"
     # - label: "Twitter"
@@ -76,7 +76,7 @@ author:
 
 footer:
   links:
-    - label: "LinkedIn"
+    - label: " LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/abdelrahmansobhynassar/"
     - label: "GitHub"
