@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdelrahman Nassar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Abdelrahman Nassar</h1>
         <p>Senior Embedded Systems Engineer</p>
+
     </header>
     <section id="about">
         <h2>About Me</h2>
@@ -21,21 +23,134 @@
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Smart Home Automation System</h3>
-            <p><strong>Overview:</strong> Developed a closed-source embedded system for a smart home automation platform...</p>
-            <p><strong>Technologies:</strong> C/C++, ARM Cortex-M4, FreeRTOS, MQTT</p>
+    
+        <!-- Category 1: Embedded Systems -->
+        <div class="category">
+            <button class="dropdown-btn"><h3>Embedded Systems</h3></button>
+            <div class="dropdown-content">
+                <div class="project">
+                    <h3>Smart Home Automation System</h3>
+                    <p><strong>Overview:</strong> Developed a closed-source embedded system for a smart home automation platform...</p>
+                    <p><strong>Technologies:</strong> C/C++, ARM Cortex-M4, FreeRTOS, MQTT</p>
+                </div>
+                <!-- Add more projects under this category -->
+            </div>
         </div>
-        <!-- Add more projects here -->
+        <!-- Category : MATLAB -->
+        <div class="category">
+            <button class="dropdown-btn"><h3>MATLAB</h3></button>
+            <div class="dropdown-content">
+                <div class="project">
+                    <h3>OFDM Modulation</h3>
+                    <p><strong>Overview:</strong>An implemetnaion for OFDM system with different modulation schemses with different channel c/c's</p>
+                    <p><strong>Technologies:</strong> OFDM, BPSK, QPSK, 8PSK, 16QAM, 64QAM, AWGN channel, Raylegih fading channel</p>
+                </div>
+                <div class="project">
+                    <h3>Morse code encoder & decoder</h3>
+                    <p><strong>Overview:</strong>An implemetnaion for Morse code encoder and decoder by converting text to sound morse coded signal and vice versa</p>
+                    <p><strong>Technologies:</strong>Keying, security</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Category : LABVIEW -->
+        <div class="category">
+            <button class="dropdown-btn"><h3>LABView</h3></button>
+            <div class="dropdown-content">
+                <div class="project">
+                    <h3>Gyroscope simulation with arduino</h3>
+                    <p><strong>Overview:</strong>A simulation for MPU-6050 gyroscope using arduino and LABView</p>
+                    <!-- <p><strong>Technologies:</strong> OFDM, BPSK, QPSK, 8PSK, 16QAM, 64QAM, AWGN channel, Raylegih fading channel</p> -->
+                </div>
+                <div class="project">
+                    <h3>Resistor measuremnts visulaization with arduino</h3>
+                    <p><strong>Overview:</strong>A visualization for Resistor measuremnts circuit</p>
+                    <!-- <p><strong>Technologies:</strong> OFDM, BPSK, QPSK, 8PSK, 16QAM, 64QAM, AWGN channel, Raylegih fading channel</p> -->
+                </div>
+                <div class="project">
+                    <h3>Function Generator</h3>
+                    <p><strong>Overview:</strong>A simulation for multiple function generator signals</p>
+                    <!-- <p><strong>Technologies:</strong> OFDM, BPSK, QPSK, 8PSK, 16QAM, 64QAM, AWGN channel, Raylegih fading channel</p> -->
+                </div>
+                <div class="project">
+                    <h3>AM signal modulation & demodulation</h3>
+                    <p><strong>Overview:</strong>A simulation for AM signal with multiple modulation and demodulation techniques</p>
+                    <!-- <p><strong>Technologies:</strong> OFDM, BPSK, QPSK, 8PSK, 16QAM, 64QAM, AWGN channel, Raylegih fading channel</p> -->
+                </div>
+                <!-- Add more projects under this category -->
+            </div>
+        </div>
+    
+        <!-- Add more categories here -->
+    
     </section>
+    
+    <style>
+        /* Basic styling for the dropdown */
+        .dropdown-btn {
+            background-color: #f1f1f1;
+            color: black;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+        }
+    
+        .dropdown-btn:hover {
+            background-color: #ddd;
+        }
+    
+        .dropdown-content {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    
+        .category {
+            margin-bottom: 10px;
+        }
+    </style>
+    
+    <!-- <script>
+        // JavaScript to handle the dropdown functionality
+        document.querySelectorAll('.dropdown-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script> -->
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>C, C++, Python</li>
-            <li>ARM Cortex-M, AVR, ESP32</li>
-            <li>I2C, SPI, UART, CAN</li>
+            <li><b>Programming Language:</b> Proficient in C, C++, Python, Familiarity with Assembly, Rust, HTML, PHP.</li>
+            
+            <li><b>Software development:</b> Problem solving, OOP, data structures, algorithms, STL, SDLC, Agile methodologies, Familiarity with AUTOSAR.</li>
+            
+            <li><b>Embedded-C:</b> Bootloader, linker, startup, CMake, makefile, RTOS.</li>
+            
+            <li><b>IDE and platforms:</b> Eclipse, Microsoft VS, STMCubeIDE, Atmel Studio, MATLAB, LabVIEW, Proteus, KiCAD.</li>
+            
+            <li><b>Controllers & boards:</b> ESP8266, AVR controllers, ARM (M3 & M4 cortex), STM32F103Cx, STM32F407xx, Raspberry pi (zero, 3 and 4).</li>
+            
+            <li><b>Communication protocols:</b> UART, SPI, I2C, CAN, TCP, UDP, HTTP Requests, MQTT, Familiarity with networking.</li>
+            
+            <li><b>Tools:</b> Git, GitHub, ClickUp, Json, Markdown, doxygen, UML, PlantUML, MongoDB, SQL, Qt Framework.</li>
+            
+            <li>Linux knowledge (Raspbian, Ubuntu), Bash scripting, Familiarity with CI/CD and Docker.</li>
+            
+            <li><b>Debugging Tools:</b> gdb, STM32CubeIDE Debugger, VS Code debugger, static and dynamic analysis techniques.</li>
+            
+            <li><b>Hardware Tools:</b> Multimeter, Oscilloscope, capability to deal with any hardware component, PCBs and Energy distribution.</li>
+            
+            <li><b>Soft skills:</b> Analytical thinking, Mathematical skills, Documentation and writing skills, Researching skills</li>
         </ul>
     </section>
+    <section id="Study notes">
+        <h2>Study Notes</h2>
+        <p>My study notes are available on my GitHub repository. You can find them here: <a href="cpp/README.md">cpp</a>
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: abdonassar283@gmail.com</p>
