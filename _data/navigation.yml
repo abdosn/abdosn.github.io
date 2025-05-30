@@ -1,6 +1,6 @@
 nav:
 - section: "pages"
-items:
+  items:
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -8,4 +8,6 @@ items:
   - title: "Tags"
     url: /tags/
   - title: "About"
-    url: /about/
+    url: /about.html
+  - title: "projects"
+    url: /projects.html
