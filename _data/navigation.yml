@@ -1,4 +1,6 @@
 nav:
+- section: "pages"
+items:
   - title: "Posts"
     url: /posts/
   - title: "Categories"
