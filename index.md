@@ -14,6 +14,8 @@ Whether it’s building smart home automation systems, optimizing power consumpt
 
 ## Projects
 
+---
+
 ### [Embedded Systems](projects/Embedded.md)
 
 ---
@@ -23,6 +25,8 @@ Whether it’s building smart home automation systems, optimizing power consumpt
 ---
 
 ### [LABView](projects/Labview.md)
+
+---
 
 ## Contact
 
